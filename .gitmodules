@@ -1,0 +1,3 @@
+[submodule "flight-booking-app"]
+	path = flight-booking-app
+	url = https://github.com/rvijayagopalan-dev/flight-booking-app.git
