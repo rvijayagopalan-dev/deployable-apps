@@ -1,0 +1,1 @@
+import { GoogleLogin } from "@react-oauth/google"; import styles from "../styles/LoginPage.module.css"; const LoginPage = ({ onLoginSuccess }) => (<div className={styles.loginContainer}><h2>Welcome to My App</h2><GoogleLogin onSuccess={onLoginSuccess} onError={() => console.log("Login Failed")} /></div>); export default LoginPage;

@@ -1,0 +1,1 @@
+import styles from "../styles/HomePage.module.css"; const HomePage = ({ user }) => (<div className={styles.homeContainer}><h1>Hello, {user.name}</h1><p>Welcome to the secure area of the app.</p></div>); export default HomePage;
